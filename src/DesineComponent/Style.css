@@ -1,0 +1,139 @@
+
+
+
+
+.container{
+background-color: #001236;
+/* width:600px;*/
+height:800px; 
+position:absolute;
+top:50px;
+left:50px;
+border:2px red solid;
+transition: all 5s;
+display: flex;
+flex-flow:column wrap;
+justify-content: space-between;
+
+}
+
+.animestate{
+  background-color: #3157a3;
+  /* width:600px; */
+  height:800px;
+  position:absolute;
+  top:50px;
+  left:800px;
+  border:2px red solid;
+  display: flex;
+  flex-flow:column wrap;
+  justify-content: space-between;
+  flex-direction:column;
+  flex-wrap: wrap;
+  transition: all 5s;
+  }
+
+  .container1{
+    background-color: #001236;
+    /* width:600px;*/
+    height:800px; 
+    position:absolute;
+    top:50px;
+    left:50px;
+    border:2px red solid;
+    transition: all 5s;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: space-between;
+    animation: fadeMe2  4s linear 0s 1 normal forwards;
+    
+    }
+
+  .animestate1{
+    background-color: #3157a3;
+    /* width:600px; */
+    height:800px;
+    position:absolute;
+    top:50px;
+    left:1650px;
+    border:2px red solid;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: space-between;
+    flex-direction:column;
+    flex-wrap: wrap;
+    animation: fadeMe  4s linear 0s 1 normal forwards;
+    }
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    top: 435px;
+    left: 1080px;
+    transition: all  ;
+    transition-delay: 2s;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .box12
+  {
+    display: flex;
+    flex-direction:row;
+  }
+
+  .box1
+  {
+    /* width:200px; */
+    height: 300px;
+    background-color: aliceblue;
+    margin: 5px;
+    flex: 1;
+    
+  }
+  .box2
+  {
+    /* width:200px; */
+    height: 300px;
+    background-color: aliceblue;
+    margin: 5px;
+    flex:1;
+  }
+  .box3
+  {
+    width:400px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: 5px;
+    flex:2;
+  }
+
+@keyframes fadeMe {
+    from {
+      left: 50px;
+    }
+    to {
+      left:1650px;
+    }
+  }
+
+  @keyframes fadeMe2 {
+    from {
+      left: 1650px;
+    }
+    to {
+      left:50px;
+    }
+  }
+
+  /* ====================================================================================================== */
+  /* ====================================================================================================== */
